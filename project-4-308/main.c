@@ -64,7 +64,7 @@ int main(int argc, char *argv[]){
 
 			board_buttons[i][j]= gtk_button_new();
 
-        		gtk_widget_set_size_request(board_buttons[i][j], 100, 100);
+        		gtk_widget_set_size_request(board_buttons[i][j], 80, 80);
         		g_object_set (board_buttons[i][j], "margin", 1, NULL);
 
 			//Controls when a button on the board is clicked
